@@ -1,5 +1,5 @@
 import { Mail, MapPin, Globe, Phone, Bookmark, MessageSquare, UserPlus, Star } from "lucide-react";
-import avatarimg from "./assets/ridho.jpeg"
+import avatarimg from "./assets/zaki.jpeg"
 
 /*const profile = {
   avatar: avatarimg,
@@ -14,7 +14,7 @@ export default function ProfilePage() {
         <aside className="w-full md:w-1/3">
           <div className="mb-6 overflow-hidden rounded-lg bg-gray shadow-sm border border-white-100">
             <img 
-              src="/ridho.jpeg"
+              src="/zaki.jpeg"
               alt="Profile Picture" 
               className="h-auto w-full object-cover grayscale-[20%]"
             />
@@ -26,12 +26,12 @@ export default function ProfilePage() {
               <div className="space-y-4">
                 <div className="relative border-l-2 border-blue-500 pl-4">
                   <span className="absolute -left-[5px] top-0 h-2 w-2 rounded-full bg-blue-500"></span>
-                  <p className="font-bold text-slate-700">Hexacore Hardware</p>
+                  <p className="font-bold text-slate-700">Editing Adobe Premiere</p>
                   <p className="text-sm text-gray-500 italic">Primary Role</p>
                   <p className="mt-1 text-xs text-gray-400">Universitas Brawijaya • 2025 - Present</p>
                 </div>
                 <div className="pl-4">
-                  <p className="font-bold text-slate-700">Destiniy Hardware</p>
+                  <p className="font-bold text-slate-700">Destiniy Design</p>
                   <p className="text-sm text-gray-400">Assistant Researcher</p>
                 </div>
               </div>
@@ -40,7 +40,7 @@ export default function ProfilePage() {
             <div>
               <h3 className="mb-4 text-xs font-bold uppercase tracking-wider text-gray-400">Skills</h3>
               <div className="flex flex-wrap gap-2">
-                {['Technician', 'Branding', 'Electronics', 'Hardware Solutioun', 'Owner'].map((skill) => (
+                {['Design', 'Branding', 'Drawing', 'UI/UX', 'Editing'].map((skill) => (
                   <span key={skill} className="rounded-md bg-gray-100 px-3 py-1 text-xs font-medium text-slate-600">
                     {skill}
                   </span>
@@ -56,12 +56,12 @@ export default function ProfilePage() {
           <div className="mb-6 flex flex-col justify-between gap-4 md:flex-row md:items-start">
             <div>
               <div className="flex items-center gap-3">
-                <h1 className="text-3xl font-bold text-slate-800">Ridho Putra Riswanto</h1>
+                <h1 className="text-3xl font-bold text-slate-800">Muhammad Dzaky AKbar</h1>
                 <div className="flex items-center text-sm text-gray-400">
-                   <MapPin className="mr-1 h-4 w-4" /> Pasuruan, Indonesia
+                   <MapPin className="mr-1 h-4 w-4" /> Lumajang, Indonesia
                 </div>
               </div>
-              <p className="mt-1 text-lg font-medium text-blue-500">Software, Hardware & Student</p>
+              <p className="mt-1 text-lg font-medium text-blue-500">Design, UI/UX & Student</p>
               
               <div className="mt-6 flex items-center gap-4">
                 <div className="text-2xl font-bold">8,6</div>
@@ -100,16 +100,16 @@ export default function ProfilePage() {
               <h3 className="mb-6 text-xs font-bold uppercase tracking-widest text-gray-400">Contact Information</h3>
               <div className="grid grid-cols-1 gap-y-4 text-sm md:grid-cols-[150px_1fr]">
                 <span className="font-bold text-slate-700">Phone:</span>
-                <span className="text-blue-500">+62 812 3320 3020</span>
+                <span className="text-blue-500">+62 812 3550 3020</span>
                 
                 <span className="font-bold text-slate-700">Domisili:</span>
-                <span className="text-slate-600">Pasuruan Kota, 67126</span>
+                <span className="text-slate-600">Lumajang, Kota 67126</span>
                 
                 <span className="font-bold text-slate-700">E-mail:</span>
-                <span className="text-blue-500">ridhoputrariswanto@gmail.com.com</span>
+                <span className="text-blue-500">dzakyakbar08@gmail.com.com</span>
                 
               <span className="font-bold text-slate-700">Instagram:</span>
-                <span className="text-blue-500"> @ridhoputrraa </span>
+                <span className="text-blue-500"> @barfrhnsy</span>
               </div>
             </section>
 
@@ -131,9 +131,9 @@ export default function ProfilePage() {
             <section>
               <h3 className="mb-4 text-xs font-bold uppercase tracking-widest text-gray-400">Tentang Diri</h3>
               <p className="leading-relaxed text-slate-600">
-                Haloo semuanya, Perkenalkan Nama saya Ridho, Saya adalah mahasiswa universitas brawijaya, Fakultas vokasi, Program studi teknologi informasi
+                Haloo semuanya, Perkenalkan Nama saya Zaki, Saya adalah mahasiswa universitas brawijaya, Fakultas vokasi, Program studi teknologi informasi
                 <br /><br />
-                Saya adalah Seorang teknisi hardware yaitu, Komputer, Laptop, CCTV, Dan smartphone
+                Saya adalah Seorang Designer
               </p>
             </section>
           </div>
